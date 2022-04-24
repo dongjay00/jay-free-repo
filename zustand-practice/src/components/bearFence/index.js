@@ -7,11 +7,7 @@ function BearFence() {
   const renderingBears = () => {
     const result = [];
     for (let i = 0; i < bears; i++) {
-      result.push(
-        <div>
-          <img key={i} src={zustandBear} alt="zustandBear" />
-        </div>
-      );
+      result.push(<img key={i} src={zustandBear} alt="zustandBear" />);
     }
     return result;
   };

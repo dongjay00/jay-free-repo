@@ -1,0 +1,17 @@
+.bear-fence {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #512639;
+  padding: 20px;
+}
+
+.bear-fence img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+}

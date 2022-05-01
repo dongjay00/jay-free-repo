@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Provider } from "jotai";
-import { Id, Loading, Next, PostTitle } from "./components";
+import { Id, Loading, Next, PostTitle, Previous } from "./components";
 
 export default function App() {
   return (
@@ -11,7 +11,10 @@ export default function App() {
           <PostTitle />
         </Suspense>
       </div>
-      <Next />
+      <div>
+        <Previous />
+        <Next />
+      </div>
     </Provider>
   );
 }

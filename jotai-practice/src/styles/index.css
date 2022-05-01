@@ -57,6 +57,11 @@ h6 {
   position: relative;
 }
 
+#root > div:last-child {
+  display: flex;
+  align-items: flex-end;
+}
+
 #root > div > div {
   position: absolute;
 }
@@ -74,8 +79,6 @@ button {
   font-weight: 200;
   font-size: 6em;
   padding: 0px 30px 20px 0px;
-  display: flex;
-  align-items: flex-end;
   color: inherit;
 }
 

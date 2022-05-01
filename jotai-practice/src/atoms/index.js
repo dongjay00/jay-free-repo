@@ -1,6 +1,6 @@
 import { atom } from "jotai";
 
-export const postId = atom(9001);
+export const postId = atom(10000);
 
 export const postData = atom(async (get) => {
   const id = get(postId);
